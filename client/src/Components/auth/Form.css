@@ -1,0 +1,19 @@
+@import 'tailwindcss';
+
+.input{
+    --colorbg1 : #7fbdf6;
+    --colorbg2 : #68aef3;
+    --colorbg3 : #8bc4f7;
+    --colorbg3 : #0077d3;
+    --colorbg4 : #0056b8;
+    --colorbg5 : #0070ce;
+    --colorbg6 : #0069ca;
+
+     @apply text-[#000] w-full py-2 mb-1  border-b-2 focus:outline-0;
+}
+.btn{
+    @apply text-xl font-medium  mt-5  p-2 w-full rounded-lg cursor-pointer;
+}
+.btns{
+    @apply  border-none shadow-lg py-2 px-5 rounded-lg flex items-center gap-2 text-lg cursor-pointer;
+}
